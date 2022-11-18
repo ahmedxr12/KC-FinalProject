@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="feedback.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <script src="./feedback.js" defer></script>
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="container1">
+            <div class="row row-header">
+                <h1>ProCom</h1>
+                <i class="bi-moon" id="toggleDark"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="container" id="container">
+        <div class="row row-header">
+            <div class="col-12">
+                <br>
+                <h3 id="h3">Send Us Your Feedback</h3>
+                <br>
+            </div>
+            <div class="col-12 col-md-9">
+                <form>
+                    <div class="form-grope row">
+                        <label for="firstname" class="col-md-2 col-form-label">First Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="firstname" name="Fname"
+                                placeholder="First Name" />
+                        </div>
+                    </div>
+                    <br>
+                    <div class="form-grope row">
+                        <label for="lastname" class="col-md-2 col-form-label">Last Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="lastname" name="Lname"
+                                placeholder="Last Name" />
+                        </div>
+                    </div>
+                    <br>
+                    <div class="form-grope row">
+                        <label for="telnum" class="col-12 col-md-2 col-form-label">Phone Number</label>
+                        <div class="col-5 col-md-3">
+                            <input type="tel" class="form-control" id="areacode" name="areacode"
+                                placeholder="Area Code" />
+                        </div>
+                        <div class="col-7 col-md-7">
+                            <input type="tel" class="form-control" id="telnum" name="telnum"
+                                placeholder="Number" />
+                        </div>
+                    </div>
+                    <br>
+                    <div class="form-grope row">
+                        <label for="emailid" class="col-md-2 col-form-label">Email</label>
+                        <div class="col-md-10">
+                            <input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email" />
+                        </div>
+                    </div>
+                    <br>
+                    <div class="form-group row">
+                        <div class="col-md-6 offset-md-2">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" name="approve" id="approve" value="">
+                                <label class="form-check-label" for="approve">
+                                    <strong>May We Contact You</strong>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-3 offset-md-1">
+                            <select class="form-control">
+                                <option>Phone</option>
+                                <option>Email</option>
+                                <option>Phone or Email</option>
+                            </select>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="form-group row">
+                        <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
+                        <div class="col-md-10">
+                            <textarea class="form-control" id="feedback" name="feedback" rows="12"></textarea>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="form-group row">
+                        <div class="offset-md-2 col-md-10">
+                            <button type="submit" class="btn btn-primary">Send Feedback</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-12 col-md"></div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container2">
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <p>© Copyright 2022 ProCom</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
