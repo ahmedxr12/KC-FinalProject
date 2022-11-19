@@ -41,24 +41,6 @@ body{
     min-height: 400px;
 }
 
-.back{
-	margin-bottom: 10px;
-	text-align: left;
-}
-.back a{
-	background-color: #3a6cf4;
-	padding:12px 40px;
-	text-decoration: none;
-	color:#fff;
-	font-size: 25px;
-    font-family: sans-serif;
-	letter-spacing: 1.5px;
-}
-.back a:hover{
-	background-color: #0a49f6;
-	color:#fff;
-}
-
 .footer{
     width: 100%;
     background: #24252a;
@@ -77,16 +59,28 @@ body{
 }
 
 @media(max-width:1023px){
+    .navbar{
+        width: 100%;
+    }
+
     .navbar h1{
         margin-left: 60px;
     }
 
     .navbar i{
-        margin-left: 550px;
+        margin-left: 200px;
+    }
+
+    .footer{
+        width: 100%;
     }
 }
 
 @media(max-width:641px){
+    .navbar{
+        width: 100%;
+    }
+
     .navbar h1{
         margin-left: 40px;
     }
@@ -94,14 +88,26 @@ body{
     .navbar i{
         margin-left: 320px;
     }
+
+    .footer{
+        width: 100%;
+    }
 }
 
 @media(max-width:360px){
+    .navbar{
+        width: 100%;
+    }
+
     .navbar h1{
         margin-left: 20px;
     }
 
     .navbar i{
         margin-left: 240px;
+    }
+
+    .footer{
+        width: 100%;
     }
 }
